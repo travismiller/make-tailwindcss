@@ -1,0 +1,9 @@
+{
+  "name": "make-tailwindcss",
+  "description": "A demo template for using tailwindcss with a simple Makefile.",
+  "author": "Travis Miller <travis@travismiller.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^0.7.4"
+  }
+}
