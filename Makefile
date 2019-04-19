@@ -12,6 +12,7 @@ dist/styles.css: tailwind.css tailwind.js | node_modules
 
 node_modules: .node-version package.json package-lock.json
 	npm install
+	touch node_modules
 
 # https://stackoverflow.com/a/48496716/1596013
 watch:
