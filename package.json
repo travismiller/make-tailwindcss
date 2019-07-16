@@ -4,6 +4,6 @@
   "author": "Travis Miller <travis@travismiller.com>",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^0.7.4"
+    "tailwindcss": "^1.0.5"
   }
 }
