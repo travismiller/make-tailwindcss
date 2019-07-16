@@ -7,8 +7,8 @@ all: dist/styles.css
 clean:
 	rm -rf dist node_modules
 
-dist/styles.css: tailwind.css tailwind.js | node_modules
-	npx tailwind build tailwind.css -c tailwind.js -o dist/styles.css
+dist/styles.css: tailwind.css tailwind.config.js | node_modules
+	npx tailwind build tailwind.css -o dist/styles.css
 
 node_modules: .node-version package.json package-lock.json
 	npm install
